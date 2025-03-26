@@ -28,6 +28,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #0cbe9b;
+    left: 0; 
 }
 header h1 {
   font-family: "Shadows Into Light";
