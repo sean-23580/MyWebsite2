@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+body {
+    font-family: 'Quicksand' , sans-serif;
+    margin-bottom: 4em; /* give the body a bottom margin 1em larger than the height of the footer */
+    font-size: 120%;
+}
+ nav {
+  background-color: #0a85d8;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px ;
+  display: flex ; /* display the children of this elememnt as flexible boxes */
+  align-items: "center"; /* align child flexible boxes in the vertical center */
+}
+nav p {
+  text-align: center;
+  flex-basis: 100px; /* give each paragraph the same basic width*/
+  flex-grow: 1; /* allows the paragraphs to grow equally */
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+} 
+nav a:hover {
+  color: red;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0cbe9b;
+}
+header h1 {
+  font-family: "Shadows Into Light";
+  font-size: 400%;
+  font-weight: lighter;
+  color: black;
+  margin: 0;
+  padding-left: 10px;
+}
+h1, h2 {
+  font-family: 'Mclaren';
+  color: #f75c03;
+}
+.center {
+  text-align: center;
+}
+.wrap {
+  float: right;
+}
+footer {
+  background-color: #0a85d8; /* backgound or background-color works*/
+  position: fixed; /* fix viewport */
+  bottom: 0; /* start 0 pixels from the bottom of the viewport */
+  left: 0; /* star 0 pixels to the left of the viewport */
+  width:100%; /* set width to 100 % of the viewport */
+  border-top: solid black 1px; /* have to put the unit, e.g., px or %, if mnot 0 */ 
+  height: 3em; /* set the footer elements height to 3 times larger than it's current font size*/
+}
+
