@@ -15,7 +15,7 @@ nav p {
   text-align: center;
   flex-basis: 100px; /* give each paragraph the same basic width*/
   flex-grow: 1; /* allows the paragraphs to grow equally */
-}
+} 
 nav a {
   color: white;
   text-decoration: none;
