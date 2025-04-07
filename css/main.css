@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=McLaren&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
 body {
     font-family: 'Quicksand' , sans-serif;
-    margin-bottom: 4em; /* give the body a bottom margin 1em larger than the height of the footer */
+    margin: 0; /*remove all body margins */
     font-size: 120%;
 }
  nav {
   background-color: #0a85d8;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
-  display: flex ; /* display the children of this elememnt as flexible boxes */
-  align-items: "center"; /* align child flexible boxes in the vertical center */
+  
 }
 nav p {
   text-align: center;
