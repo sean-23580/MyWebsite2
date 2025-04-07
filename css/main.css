@@ -8,7 +8,8 @@ body {
   background-color: #0a85d8;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
-  
+  display: flex ; /* display the children of this elememnt as flexible boxes */
+  align-items: "center"; /* align child flexible boxes in the vertical center */
 }
 nav p {
   text-align: center;
