@@ -22,7 +22,7 @@ nav a {
   font-weight: bold;
 } 
 nav a:hover {
-  color: rgb(255, 234, 0);
+  color: #fff700;
 }
 header {
     display: flex;
@@ -35,7 +35,7 @@ header h1 {
   font-family: "Shadows Into Light";
   font-size: 400%;
   font-weight: lighter;
-  color: #f7df03;
+  color: #fff700;
   margin: 0;
   padding-left: 10px;
   left: 0; /* star 0 pixels to the left of the viewport */
@@ -57,7 +57,7 @@ margin-bottom: 4em;
   float: right;
 }
 footer {
-  background-color: #0a85d8; /* backgound or background-color works*/
+  background-color: #fff700; /* backgound or background-color works*/
   position: fixed; /* fix viewport */
   bottom: 0; /* start 0 pixels from the bottom of the viewport */
   left: 0; /* star 0 pixels to the left of the viewport */
