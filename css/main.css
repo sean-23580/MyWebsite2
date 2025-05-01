@@ -5,7 +5,7 @@ body {
     font-size: 120%;
 }
  nav {
-  background-color: #f9ffa1;
+  background-color: #e40808;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
@@ -22,12 +22,12 @@ nav a {
   font-weight: bold;
 } 
 nav a:hover {
-  color: red;
+  color: rgb(255, 234, 0);
 }
 header {
     display: flex;
     align-items: center;
-    background-color: #dedaa6;
+    background-color: #000dff;
     left: 0; /* star 0 pixels to the left of the viewport */
     width:100%; /* set width to 100 % of the viewport */
 }
