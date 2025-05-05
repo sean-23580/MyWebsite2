@@ -43,9 +43,15 @@ header h1 {
   left: 0; /* star 0 pixels to the left of the viewport */
   width:100%; /* set width to 100 % of the viewport */
 }
-h1, h2 {
+h2 {
   font-family: 'Short Stack';
   color: #0c0c05;
+  font-size: 140%;
+}
+h1 {
+    font-family: 'Short Stack';
+    color: #0c0c05;
+    font-size: 160%;
 }
 .main {
 margin-left: 1em;
