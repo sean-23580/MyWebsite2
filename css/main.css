@@ -54,15 +54,15 @@ h1 {
     font-size: 160%;
 }
 main {
-margin: 0 1em 6em 1em;
-position: relative;
-z-index: 1;
-background-color: rgb(229, 237, 234);
-padding: 20px;
-border-radius: 10px;
-margin: 20px auto;
-max-width: 700%;
-box-shadow: lightgrey;
+  margin: 0 1em 6em 1em;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(229, 237, 234);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 700%;
+  box-shadow: lightgrey;
 }
 .center {
   text-align: center;
