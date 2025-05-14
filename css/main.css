@@ -63,6 +63,7 @@ main {
   margin: 20px auto;
   max-width: 700%;
   box-shadow: lightgrey;
+  margin-bottom: auto;
 }
 .center {
   text-align: center;
