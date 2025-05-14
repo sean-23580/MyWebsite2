@@ -56,12 +56,11 @@ h1 {
 .main {
   margin: 0 1em 6em 1em;
   position: relative;
-  z-index: 1;
   background-color: rgb(229, 237, 234);
   padding: 20px;
   border-radius: 10px;
   margin: 20px;
-  max-width: 700%;
+  max-width: 800px;
   box-shadow: lightgrey;
 
 }
@@ -79,5 +78,7 @@ footer {
   width:100%; /* set width to 100 % of the viewport */
   border-top: black 1px; /* have to put the unit, e.g., px or %, if mnot 0 */ 
   height: 3em; /* set the footer elements height to 3 times larger than it's current font size*/
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
