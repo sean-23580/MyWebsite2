@@ -77,5 +77,6 @@ footer {
   height: 3em; /* set the footer elements height to 3 times larger than it's current font size*/
   margin-top: 10px;
   border-radius: 10px;
+  padding: 10px;
 }
 
