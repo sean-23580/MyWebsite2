@@ -53,7 +53,7 @@ h1 {
     color: black;
     font-size: 160%;
 }
-.main {
+main {
   margin: 0 1em 6em 1em;
   position: relative;
   background-color: white;
@@ -79,5 +79,6 @@ footer {
   margin-top: 10px;
   border-radius: 10px;
   padding: 10px;
+  text-align: center;
 }
 
