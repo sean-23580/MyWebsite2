@@ -80,11 +80,3 @@ footer {
   height: 3em; /* set the footer elements height to 3 times larger than it's current font size*/
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
