@@ -3,7 +3,6 @@
 
 body {
     font-family: 'Short Stack';
-    margin: 0; /*remove all body margins */
     font-size: 120%;
 }
  nav {
@@ -53,7 +52,7 @@ h1 {
     color: black;
     font-size: 160%;
 }
-.main {
+main {
   margin: 0 1em 6em 1em;
   position: relative;
   background-color: rgb(229, 237, 234);
