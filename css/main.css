@@ -55,10 +55,10 @@ h1 {
 main {
   margin: 0 1em 6em 1em;
   position: relative;
-  background-color: rgb(229, 237, 234);
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 20px auto;
   max-width: 800px;
   box-shadow: lightgrey;
 
