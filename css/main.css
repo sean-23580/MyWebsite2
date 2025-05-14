@@ -73,10 +73,10 @@ main {
 footer {
   background-color: #fff700; /* backgound or background-color works*/
   position: fixed; /* fix viewport */
-  bottom: 3px; /* start 0 pixels from the bottom of the viewport */
-  left: 0; /* star 0 pixels to the left of the viewport */
+  bottom: 0px; /* start 0 pixels from the bottom of the viewport */
+  left: 0px; /* star 0 pixels to the left of the viewport */
   width:100%; /* set width to 100 % of the viewport */
-  border-top: solid black 1px; /* have to put the unit, e.g., px or %, if mnot 0 */ 
+  border-top: black 1px; /* have to put the unit, e.g., px or %, if mnot 0 */ 
   height: 3em; /* set the footer elements height to 3 times larger than it's current font size*/
 }
 
