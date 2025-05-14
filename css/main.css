@@ -53,7 +53,7 @@ h1 {
     color: black;
     font-size: 160%;
 }
-.main {
+main {
   margin: 0 1em 6em 1em;
   position: relative;
   background-color: white;
@@ -61,7 +61,6 @@ h1 {
   border-radius: 10px;
   margin: 20px auto;
   max-width: 1100px;
-  box-shadow: rgb(215, 214, 214);
 }
 .center {
   text-align: center;
