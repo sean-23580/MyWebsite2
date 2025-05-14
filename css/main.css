@@ -61,7 +61,7 @@ main {
   border-radius: 10px;
   margin: 20px auto;
   max-width: 1100px;
-  box-shadow: lightgrey;
+  box-shadow: rgb(215, 214, 214);
 
 }
 .center {
