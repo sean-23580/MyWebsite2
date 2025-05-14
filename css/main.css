@@ -4,6 +4,7 @@
 body {
     font-family: 'Short Stack';
     font-size: 120%;
+    margin: auto;
 }
  nav {
   background-color: #e40808;
