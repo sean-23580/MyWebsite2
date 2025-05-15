@@ -8,7 +8,7 @@ body {
 }
  nav {
   background-color: var(--secondar-color);
-  background-color: #e40808af;
+  background-color: #ff0000bc;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
