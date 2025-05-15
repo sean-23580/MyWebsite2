@@ -7,11 +7,17 @@ body {
     margin: 0;
 }
  nav {
+  background-color: var(--secondar-color);
   background-color: #e40808;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
-  align-items: "center"; /* align child flexible boxes in the vertical center */
+  box-shadow: 0px 2px var(--shadow-color);
+  color: #000dff;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 nav p {
   text-align: center;
