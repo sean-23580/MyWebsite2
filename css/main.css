@@ -8,7 +8,7 @@ body {
 }
  nav {
   background-color: var(--secondar-color);
-  background-color:#fff700b1;
+  background-color:#fff700d3;
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
@@ -26,7 +26,7 @@ nav p {
   flex-grow: 1; /* allows the paragraphs to grow equally */
 } 
 nav a {
-  color: rgb(0, 68, 255);
+  color: #fff700;
   text-decoration: none;
   font-weight: bold;
 }
@@ -92,7 +92,7 @@ footer {
   box-shadow: 0px -2px var(--shadowcolor);
   position: relative;
   z-index: 1;
-  background-color: #ff0000bc; /* backgound or background-color works*/
+  background-color: #ff0000aa; /* backgound or background-color works*/
   color: white;
   padding: 10px;
   margin-top: 20px;
