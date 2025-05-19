@@ -26,12 +26,12 @@ nav p {
   flex-grow: 1; /* allows the paragraphs to grow equally */
 } 
 nav a {
-  color: #fff700;
+  color: #000dff;
   text-decoration: none;
   font-weight: bold;
 }
 nav a:hover {
-  color: #000dff;
+  color: #fff700;
 }
 header {
   background: var(--primary-color);
