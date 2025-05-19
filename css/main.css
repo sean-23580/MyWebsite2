@@ -8,7 +8,7 @@ body {
 }
  nav {
   background-color: var(--secondar-color);
-  background-color:rgba(255, 255, 0, 0.777);
+  background-color:rgba(255, 255, 0, 0.738);
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
