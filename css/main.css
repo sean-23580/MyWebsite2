@@ -8,7 +8,7 @@ body {
 }
  nav {
   background-color: var(--secondar-color);
-  background-color:#fff700d3;
+  background-color:rgba(250, 246, 246, 0.844)
   border-top: solid black 1px;
   border-bottom: solid black 1px ;
   display: flex ; /* display the children of this elememnt as flexible boxes */
@@ -26,12 +26,12 @@ nav p {
   flex-grow: 1; /* allows the paragraphs to grow equally */
 } 
 nav a {
-  color: white;
+  color: blue;
   text-decoration: none;
   font-weight: bold;
 }
 nav a:hover {
-  color: #000dff;
+  color: yellow;
 }
 header {
   background: var(--primary-color);
@@ -50,7 +50,7 @@ header h1 {
   font-family: "Gamja Flower";
   font-size: 550%;
   font-weight: lighter;
-  color: #fff700;
+  color: yellow;
   margin: 0;
   padding-left: 10px;
 }
