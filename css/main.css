@@ -19,6 +19,7 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   text-size-adjust: 150%;
+  width: 100%;
 }
 nav p {
   text-align: center;
@@ -45,6 +46,7 @@ header {
   text-align: center;
   border-radius: 10px;
   margin-bottom: 20px;
+  width: 100%;
 }
 header h1 {
   font-family: "Gamja Flower";
@@ -53,6 +55,7 @@ header h1 {
   color: yellow;
   margin: 0;
   padding-left: 10px;
+  width: 100%;
 }
 h2 {
   font-family: 'Short Stack';
