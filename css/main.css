@@ -131,7 +131,7 @@ html, body {
 .grid-container {
             
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
+  grid-template-columns: 1fr 1fr 1fr ;/*two columns with equal width*/
   gap: 20px; /*Gap between grid items*/
 }
         /* style for each grid item */
