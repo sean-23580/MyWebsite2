@@ -120,7 +120,15 @@ html, body {
   margin: 0;
   padding: 0;
 }
- .grid-container {
+
+
+
+
+
+
+/*codes for grid item*/
+
+.grid-container {
             
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
