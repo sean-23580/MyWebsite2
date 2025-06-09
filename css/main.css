@@ -139,7 +139,18 @@ html, body {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 .grid-item img {
     height: 70%; /* Ensures the image takes up 100% of its container's width*/
+}
+
+@media (max-width: 800px;) {
+.grid-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:600px;) { 
+.grid-container {
+grid-template-columns: 1fr;
 }
