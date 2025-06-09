@@ -120,3 +120,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+ .grid-container {
+            
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
+  gap: 20px; /*Gap between grid items*/
+}
+        /* style for each grid item */
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item img {
+    height: 70%; /* Ensures the image takes up 100% of its container's width*/
+}
