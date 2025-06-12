@@ -144,7 +144,7 @@ html, body {
     font-weight: bold;
 }
 .grid-item img {
-    height: 20%; /* Ensures the image takes up 20% of its container's height*/
+    height: 10%; /* Ensures the image takes up 20% of its container's height*/
 }
 
 @media (max-width: 800px;) {
