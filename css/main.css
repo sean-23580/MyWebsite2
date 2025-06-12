@@ -140,7 +140,7 @@ pointer-events: none;
     font-size: 50%;
 }
 .grid-item img {
-    height: 20px; /* Ensures the image takes up 20% of its container's height*/
+    height: 20%; /* Ensures the image takes up 20% of its container's height*/
 }
 
 @media (max-width: 800px;) {
