@@ -144,7 +144,7 @@ html, body {
     font-weight: bold;
 }
 .grid-item img {
-    height: 10%; /* Ensures the image takes up 20% of its container's height*/
+    width: 10%; /* Ensures the image takes up 20% of its container's height*/
 }
 
 @media (max-width: 800px;) {
@@ -152,7 +152,7 @@ html, body {
     grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width:600px;) { 
+@media (max-width:600px;) {
 .grid-container {
 grid-template-columns: 1fr;
 }
