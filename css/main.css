@@ -128,6 +128,7 @@ pointer-events: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
   gap: 10px; /*Gap between grid items*/
+  height: 50px;
 
 }
         /* style for each grid item */
@@ -139,7 +140,7 @@ pointer-events: none;
     font-weight: bold;
 }
 .grid-item img {
-    height: 20%; /* Ensures the image takes up 20% of its container's height*/
+    height: 20px; /* Ensures the image takes up 20% of its container's height*/
 }
 
 @media (max-width: 800px;) {
