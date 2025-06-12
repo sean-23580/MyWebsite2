@@ -128,7 +128,7 @@ pointer-events: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
   gap: 10px; /*Gap between grid items*/
-  height: 50px;
+  height: fit-content;
 
 }
         /* style for each grid item */
