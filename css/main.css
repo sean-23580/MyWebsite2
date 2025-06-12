@@ -128,7 +128,7 @@ html, body {
 
 /*codes for grid item*/
 
-main.grid-container {
+.grid-container {
             
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
@@ -142,6 +142,7 @@ main.grid-container {
     padding: 10px;
     text-align: center;
     font-weight: bold;
+    box-sizing: 10px;
 }
 .grid-item img {
     width: 10%; /* Ensures the image takes up 20% of its container's height*/
