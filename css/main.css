@@ -128,7 +128,6 @@ pointer-events: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
   gap: 10px; /*Gap between grid items*/
-  height: fit-content;
 
 }
         /* style for each grid item */
@@ -138,6 +137,7 @@ pointer-events: none;
     padding: 10px;
     text-align: center;
     font-weight: bold;
+    font-size: 50%;
 }
 .grid-item img {
     height: 20px; /* Ensures the image takes up 20% of its container's height*/
