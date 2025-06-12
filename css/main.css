@@ -137,10 +137,9 @@ pointer-events: none;
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    box-sizing: 10px;
 }
 .grid-item img {
-    width: 10%; /* Ensures the image takes up 20% of its container's height*/
+    height: 20%; /* Ensures the image takes up 20% of its container's height*/
 }
 
 @media (max-width: 800px;) {
