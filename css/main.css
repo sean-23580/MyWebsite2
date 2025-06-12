@@ -128,7 +128,7 @@ html, body {
 
 /*codes for grid item*/
 
-.grid-container {
+main.grid-container {
             
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
