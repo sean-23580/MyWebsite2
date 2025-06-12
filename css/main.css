@@ -114,11 +114,7 @@ z-index: -1;
 pointer-events: none;
 }
 
-html, body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
+
 
 
 
