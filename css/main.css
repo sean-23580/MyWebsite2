@@ -132,17 +132,18 @@ html, body {
             
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;/*two columns with equal width*/
-  gap: 20px; /*Gap between grid items*/
+  gap: 10px; /*Gap between grid items*/
 }
         /* style for each grid item */
 .grid-item {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
 }
 .grid-item img {
     height: 20%; /* Ensures the image takes up 100% of its container's width*/
+    width: 100%;
 }
 
 @media (max-width: 800px;) {
