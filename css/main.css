@@ -113,6 +113,12 @@ object-fit: cover;
 z-index: -1;
 pointer-events: none;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
 
 
 
