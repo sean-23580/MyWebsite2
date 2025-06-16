@@ -149,12 +149,12 @@ html, body {
     height: 20%; /* Ensures the image takes up 20% of its container's height*/
 }
 
-@media (max-width: 800px;) {
+@media (max-width: 800px) {
 .grid-container {
     grid-template-columns: 1fr 1fr;
-}
+}}
 
-@media (max-width:600px;) {
+@media (max-width:600px) {
 .grid-container {
 grid-template-columns: 1fr;
-}
+}}
