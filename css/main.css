@@ -82,7 +82,7 @@ main {
   text-align: center;
 }
 .wrap {
-  float: top;
+  float: right;
 }
 footer {
   background-color: var(--secondar-color);
