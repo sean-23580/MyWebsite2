@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title>WELCOME TO THE PHILIPPINES</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="images/SEARCH_logoPH.png" type="image/x-icon">
-    
   </head>
+
   <body>
       <video id="background-video" autoplay loop muted>
         <source src="videos/Beach.mp4" type="video/mp4">
       </video>
-    <header>
-      <figure>
+      <header>
+        <figure>
           <a href="Homepage.html"><img src="images/MAIN_LogoPH.png" width="290" alt="MAIN_LogoPH.jpg didn't load"></a>
-      </figure>
-      <h1>Welcome to the Philippines, Mabuhay!</h1>
-    </header>
+        </figure>
+        <h1>Welcome to the Philippines, Mabuhay!</h1>
+      </header>
+  <nav>
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-    <nav>
-      <!-- sitewide mav bar -->
-      <p><a href="Homepage.html">Home</a></p>
-      <p><a href="Secondpage.html">History</a></p>
-      <p><a href="Thirdpage.html">Tourist Spots</a></p>
-    </nav>
-    <main>
+    <!--existing links wrapped in a new container -->
+    <div class="nav-links" id="nav-links">
+        <p><a href="Homepage.html">Home</a></p>
+        <p><a href="Secondpage.html">History</a></p>
+        <p><a href="Thirdpage.html">Tourist Spots</a></p>
+    </div>
+  </nav>
+
+     <main>
 
       <!-- grid items go here-->
    
       
   
-      <h1>Brief History of the Philippines</h1> 
+      <h2>Brief History of the Philippines</h2> 
     
         <p>Diverse cultures, colonial encounters, freedom conflicts, and the strong spirit of its people have all contributed to the Philippines' unique history. The history of the Philippines, from antiquity to the present, captures the struggles and victories that have molded the country.</p>
         
@@ -42,11 +52,27 @@
         <p>The Philippines attained complete sovereignty on July 4, 1946. The years following independence were characterized by both advancements and difficulties. The nation's perseverance was put to the test during the Martial Law era, when Ferdinand Marcos ruled with authoritarianism, economic hardships, and political instability. Since democracy was restored in 1986 by the nonviolent People Power Revolution, the Philippines has developed into a dynamic republic that aims to strike a balance between tradition and modernity.</p>
         
         <p>The Philippines is now a living example of the resilience and hope of its people. Despite colonization and war, its history is ultimately one of tenacity, self-determination, and the unwavering will for independence.
+ <h2>One of the Historical Figures in the Philippines: Heneral Antonio Luna</h2>
 
-    </main>
+
+ <video controls style="max-width: 100%; height: auto;">
+  <source src="videos/HeneralLuna.mp4" type="video/mp4" alt="HeneralLuna.mp4 didn't load">
+ </video>
+     </main>
+
     <footer>
       <p class="center">&copy; 2025 Sean.</p>
     </footer>
+ 
+ <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+ </script>
+
   </body>
   
-</html>   
+</html>

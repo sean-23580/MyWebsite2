@@ -14,8 +14,6 @@ body {
 }
  nav {
     background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    justify-content: center; /* Centers the links */
     padding: 15px;
     border-radius: 10px;
     margin: 20px auto;
@@ -47,14 +45,14 @@ header {
     align-items: center;
     padding: 15px 20px;
     position: relative;
-    z-index: 1;
+
     border-bottom: 4px solid var(--ph-yellow); /* A pop of golden sunshine */
 }
 
 /* Ensure the heading text stands out */
 header h1 {
     font-family: "Gamja Flower", cursive;
-    font-size: 550%;
+    font-size: 500%;
     font-weight: lighter;
     color: var(--ph-white); /* White text is much easier to read on dark blue */
     margin: 0;
@@ -62,20 +60,20 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds depth */
 }
 
-h2 {
+h3
+ {
   font-family: 'Short Stack';
   color: black;
   font-size: 140%;
 }
-h1 {
+h2 {
     font-family: 'Short Stack';
     color: black;
-    font-size: 160%;
+    font-size: 150%;
 }
 main {
   margin: 0 1em 6em 1em;
   position: relative;
-  z-index: 1;
   background-color: rgba(250, 246, 246, 0.844);
   padding: 20px;
   border-radius: 10px;
@@ -99,7 +97,6 @@ footer {
   border-top: solid black thin; /* have to put the unit, e.g., px or %, if mnot 0 */ 
   box-shadow: 0px -2px var(--shadowcolor);
   position: relative;
-  z-index: 1;
   background-color: #ff0000aa; /* backgound or background-color works*/
   color: white;
   padding: 10px;
@@ -115,7 +112,6 @@ left: 0;
 width: 100%;
 height: 100%;
 object-fit: cover;
-z-index: -1;
 pointer-events: none;
 }
 html, body {
@@ -163,3 +159,126 @@ html, body {
 .grid-container {
 grid-template-columns: 1fr;
 }}
+
+
+
+/* Update your existing nav to allow flex wrapping if necessary */
+nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+/* Ensure the new container keeps your horizontal layout on desktop */
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Style the hamburger icon (Hidden by default on desktop) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+    align-self: flex-end; /* Puts the icon on the right */
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the 3 lines of the hamburger using your color variables */
+.hamburger span {
+    width: 30px;
+    height: 4px;
+    background-color: var(--ph-blue);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger on mobile */
+    }
+    
+    .nav-links {
+        display: none; /* Hide links by default on mobile */
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* Class to show the menu when clicked */
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links p {
+        margin: 10px 0; /* Space out the links vertically */
+    }
+}
+
+.nav-links.active {
+  display: flex;
+}
+nav {
+  position: relative; 
+  z-index: 1000;
+}
+
+.hamburger {
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.nav-links {
+  z-index: 999;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+h1 {
+  font-size: clamp(1.8rem, 6vw, 3.5rem); 
+  overflow-wrap: break-word;             
+}
+@media (max-width: 768px) {
+  /*shrink body text scale */
+  body {
+    font-size: 95%;
+  }
+
+  /* reduce header container padding */
+  header {
+    padding: 10px 15px;
+  }
+
+  /*override line 54's 550% font size for header title */
+  header h1 {
+    font-size: 2rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /*scale down content headings */
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  /*reduce nav link padding and text size */
+  nav a {
+    font-size: 100%;
+    padding: 8px 12px;
+  }
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}

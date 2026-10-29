@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title>WELCOME TO THE PHILIPPINES</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="images/SEARCH_logoPH.png" type="image/x-icon">
-    
   </head>
+
   <body>
       <video id="background-video" autoplay loop muted>
         <source src="videos/Beach.mp4" type="video/mp4">
@@ -16,15 +17,25 @@
         </figure>
         <h1>Welcome to the Philippines, Mabuhay!</h1>
       </header>
-    <nav>
-      <!-- sitewide mav bar -->
-      <p><a href="Homepage.html">Home</a></p>
-      <p><a href="Secondpage.html">History</a></p>
-      <p><a href="Thirdpage.html">Tourist Spots</a></p>
-    </nav>
+  <nav>
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!--existing links wrapped in a new container -->
+    <div class="nav-links" id="nav-links">
+        <p><a href="Homepage.html">Home</a></p>
+        <p><a href="Secondpage.html">History</a></p>
+        <p><a href="Thirdpage.html">Tourist Spots</a></p>
+    </div>
+  </nav>
+
     <main>
-      <h1>Top 12 Tourist Spots in the Philippines</h1>
-    <h2>1. Boracay Island (Aklan)</h2>Add commentMore actions
+      <h2>Top 12 Tourist Spots in the Philippines</h2>
+    <h3>1. Boracay Island (Aklan)</h3>
 <p>It is a world-famous tropical paradise known for its white-sand beaches, crystal-clear waters, and vibrant nightlife.</p>
 <p>Fun Facts:</p>
 
@@ -32,7 +43,7 @@
 
 <p>It was once closed for 6 months in 2018 for environmental rehabilitation.</p>
 
-<h2>2. Chocolate Hills (Bohol)</h2>
+<h3>2. Chocolate Hills (Bohol)</h3>
 <p>It has over 1,200 symmetrical mounds that turn brown in the dry season, resembling chocolate kisses.</p>
 <p>Fun Facts:</p>
 
@@ -40,7 +51,7 @@
 
 <p>Legend says they’re tears of a heartbroken giant.</p>
 
-<h2>3. Banaue Rice Terraces (Ifugao)</h2>
+<h3>3. Banaue Rice Terraces (Ifugao)</h3>
 <p>Ancient terraces carved by hand over 2,000 years ago by the Ifugao people.</p>
 <p>Fun Facts:</p>
 
@@ -48,7 +59,7 @@
 
 <p>They're still used today to grow rice and vegetables.</p>
 
-<h2>4. Mayon Volcano (Albay)</h2>
+<h3>4. Mayon Volcano (Albay)</h3>
 <p>A nearly perfect cone-shaped volcano famous for its beauty and frequent eruptions.</p>
 <p>Fun Facts:</p>
 
@@ -56,7 +67,7 @@
 
 <p>Local legend tells of a tragic love story behind its shape.</p>
 
-<h2>5. Tubbataha Reefs Natural Park (Sulu Sea)</h2>
+<h3>5. Tubbataha Reefs Natural Park (Sulu Sea)</h3>
 <p>A protected marine sanctuary and a diver's dream with vibrant coral and diverse marine life.</p>
 <p>Fun Facts:</p>
 
@@ -64,7 +75,7 @@
 
 <p>Home to over 600 fish species and 360 coral species!</p>
 
-<h2>6. Puerto Princesa Underground River (Palawan)</h2>
+<h3>6. Puerto Princesa Underground River (Palawan)</h3>
 <p>A spectacular 8.2 km-long underground river flowing through caves.</p>
 <p>Fun Facts:</p>
 
@@ -72,7 +83,7 @@
 
 <p>It’s one of the New 7 Wonders of Nature.</p>
 
-<h2>7. El Nido (Palawan)</h2>
+<h3>7. El Nido (Palawan)</h3>
 <p>Famous for dramatic limestone cliffs, turquoise lagoons, and pristine beaches.</p>
 <P>Fun Facts:</P>
 
@@ -80,14 +91,14 @@
 
 <p>There are over 40 islands to explore.</p>
 
-<h2>8. Vigan (Ilocos Sur)</h2>
+<h3>8. Vigan (Ilocos Sur)</h3>
 <p>Description: A UNESCO site with Spanish-era architecture and cobblestone streets.</p>
 <p>Fun Facts:</p>
 <p>You can ride a kalesa (horse-drawn carriage) around town.</p>
 
 <p>It's known for Vigan longganisa (local sausage) and bagnet (crispy pork).</p>
 
-<h2>9. Siargao Island (Surigao del Norte)</h2>
+<h3>9. Siargao Island (Surigao del Norte)</h3>
 <p>Description: A laid-back island famous for surfing, especially at Cloud 9.</p>
 <p>Fun Facts:</p>
 
@@ -95,7 +106,7 @@
 
 <p>It’s been named one of the best islands in Asia multiple times.</p>
 
-<h2>10. Baguio City (Benguet)</h2>
+<h3>10. Baguio City (Benguet)</h3>
 <p>Description: The "Summer Capital of the Philippines" due to its cool mountain climate.</p>
 <p>Fun Facts:</p>
 
@@ -103,7 +114,7 @@
 
 <p>The Panagbenga Festival showcases flower floats and street dancing.</p>
 
-<h2>11. Taal Volcano (Batangas)</h2>
+<h3>11. Taal Volcano (Batangas)</h3>
 <p>Description: A volcano within a lake, with another lake inside its crater – like a volcano-ception!</p>
 <p>Fun Facts:</p>
 
@@ -111,18 +122,30 @@
 
 <p>You can get amazing views from Tagaytay’s ridge.</p>
 
-<h2>12. Cebu (Cebu Province)</h2>
+<h3>12. Cebu (Cebu Province)</h3>
 <p>Description: A historic island with a mix of beaches, waterfalls, and city attractions.</p>
 <p>Fun Facts:</p>
 
 <p>Magellan first landed here in 1521.</p>
 
 <p>You can swim with whale sharks in Oslob or visit Kawasan Falls.</p>        
-    </main>
+
+
+     </main>
+
     <footer>
-        <p class="center">&copy; 2025 Sean.</p>
+      <p class="center">&copy; 2025 Sean.</p>
     </footer>
-  
+ 
+ <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+ </script>
+
   </body>
   
 </html>
